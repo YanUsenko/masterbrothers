@@ -496,6 +496,24 @@ body.hidden {
   background-position: right;
 }
 
+@media (max-width: 1200px) {
+  .offer__img {
+    width: 500px;
+  }
+}
+
+@media (max-width: 992px) {
+  .offer__img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 880px) {
+  .offer__img {
+    width: 358px;
+  }
+}
+
 @media (max-width: 767px) {
   .offer__img {
     display: none;
