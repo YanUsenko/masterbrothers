@@ -488,24 +488,17 @@ body.hidden {
 
 .offer__img {
   overflow: hidden;
-  display: flex;
-  justify-content: center;
+  width: 791px;
+  height: 580px;
   border-radius: 5px;
+  background-image: url(../img/offer.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 @media (max-width: 767px) {
   .offer__img {
     display: none;
-  }
-}
-
-.offer__img img {
-  max-height: 561px;
-}
-
-@media (max-width: 1367px) {
-  .offer__img img {
-    max-height: 400px;
   }
 }
 
