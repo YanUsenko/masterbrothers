@@ -1066,3 +1066,28 @@ body.hidden {
 .contacts__social-img {
   margin-right: 26px;
 }
+
+.footer__row {
+  padding: 35px 35px;
+}
+
+.footer__text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #1D242C;
+}
+
+@media (max-width: 360px) {
+  .footer__text {
+    font-size: 16px;
+  }
+}
+
+.footer__text span {
+  color: #1D242C;
+  font-weight: 600;
+}
